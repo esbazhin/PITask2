@@ -17,10 +17,10 @@ namespace PITask2.Controllers
         private readonly NotesDbContext _context;
         private readonly int N;
 
-        public NotesController(NotesDbContext context, IConfiguration config)
+        public NotesController(NotesDbContext context, IConfiguration config = null)
         {
             _context = context;
-            N = config.GetValue<int>("N");
+            N = config is null ? 3 : config.GetValue<int>("N");
         }
 
         // GET: api/Notes
@@ -95,7 +95,7 @@ namespace PITask2.Controllers
             _context.Notes.Add(note);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetNote", new { id = note.Id }, note);
+            return note;
         }
 
         // DELETE: api/Notes/5
