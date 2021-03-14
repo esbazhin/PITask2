@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DfIEER7lydZk36I3acMQp6q/7+mVoGu4EaOSaii/zwo92hlPfMxnS8J6Lr1FHRih4ZyU+lx0Fw595jQ8TaoKXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\БажинЕгорСергеевич\\source\\repos\\PITask2\\PITask2\\PITask2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\БажинЕгорСергеевич\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
